@@ -4,7 +4,7 @@
 
 <div class="row">
 
-@foreach( $arrayPeliculas as $key => $pelicula )
+@foreach( $peliculas as $key => $pelicula )
 <div class="col-xs-6 col-sm-4 col-md-3 text-center">
 
     <a href="{{ url('/catalog/show/' . $key ) }}">
